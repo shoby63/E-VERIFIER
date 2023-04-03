@@ -1,0 +1,20 @@
+.result-wrapper {
+    @apply bg-gradient-to-br from-orange-100 via-indigo-100 to-orange-100 h-1/5 mx-40 border-2 rounded-lg px-2 py-5 flex mb-10 shadow-2xl shadow-indigo-100;
+  }
+  
+  .logo_section {
+    @apply justify-center flex text-2xl;
+  }
+  
+  .result__field {
+    @apply text-center w-40 mx-5 my-5 border-sky-100 border-4 border-blue-100 shadow-blue-100 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300;
+  }
+  
+  .field__label {
+    @apply text-center capitalize;
+  }
+  
+  .field__data {
+    @apply text-center;
+  }
+  

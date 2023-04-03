@@ -1,0 +1,6 @@
+.footer {
+    @apply py-5 bg-gray-900 border-t-2
+}
+.title{
+    @apply py-10 px-10 font-bold text-xl
+}

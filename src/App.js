@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NavbarC from './Components/Navbar/NavbarC';
+import SectionComponet from './Components/Section/SectionComponet';
+import { createTheme,Spacer } from '@nextui-org/react';
+import Features from './Components/FeaturesSection/Features';
+import Footer from './Components/Footer/Footer';
+import Result from './Components/ResultSection/Result';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+    <NavbarC/>
+    <Spacer y={0.5} />
+    <SectionComponet/>
+    <Result/>
+    <Features/>
+    <Footer/>
     </div>
-  );
+     );
 }
 
 export default App;
